@@ -1,0 +1,70 @@
+{
+    "intents": [
+      {
+        "tag": "benvenuto",
+        "patterns": [
+          "Ciao",
+          "Hey",
+          "Come stai",
+          "Salve"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Salve, grazie per aver visitato",
+          "Ciao, cosa posso fare per te?",
+          "Ciao, come posso aiutarti?"
+        ]
+      },
+      {
+        "tag": "arrivederci",
+        "patterns": ["Ci vediamo presto", "Arrivederci"],
+        "responses": [
+          "Ci vediamo presto, grazie per aver visitato",
+          "Buona giornata",
+          "Arrivederci! Torna presto."
+        ]
+      },
+      {
+        "tag": "grazie",
+        "patterns": ["Grazie","Questo mi aiuta", "Grazie tante!"],
+        "responses": ["Felice di aiutare!", "Sempre disponibile!", "Prego"]
+      },
+      {
+        "tag": "oggetti",
+        "patterns": [
+          "Che oggetti avete?",
+          "Che tipi di oggetti ci sono?",
+          "Cosa vendete?"
+        ],
+        "responses": [
+          "Vendiamo caffè e tè",
+          "Abbiamo caffè e tè"
+        ]
+      },
+      {
+        "tag": "pagamenti",
+        "patterns": [
+          "Accettate carte di credito?",
+          "Accettate Mastercard?",
+          "Posso pagare con Paypal?",
+          "Accettate solo contanti?"
+        ],
+        "responses": [
+          "Accettiamo VISA, Mastercard e Paypal",
+          "Accettiamo la maggior parte delle carte di credito, e Paypal"
+        ]
+      },
+      {
+        "tag": "consegna",
+        "patterns": [
+          "Quanto è lunga la consegna?",
+          "Quanto è lunga la spedizione?",
+          "Quando ottengo la consegna?"
+        ],
+        "responses": [
+          "La consegna impiega 2-4 giorni",
+          "La spedizione impiega 2-4 giorni"
+        ]
+      }
+    ]
+  }
